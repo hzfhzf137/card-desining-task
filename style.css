@@ -1,0 +1,175 @@
+*  /* makeing default page margin padding zero */
+{
+    margin: 0;
+    padding: 0;
+}
+body /* setting background img and its size and possition */
+{
+    background-image:url('pageBgImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body , html /* using flexbox setting card surronded div to centered*/
+{
+    display: flex;
+    justify-content: center;
+    height: max-content;
+}
+.cardsParentDiv /*deefining styles to card background div */
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;   /* using css unit % it will give width 80% of its parent div */
+    padding: 20px;
+    margin-top: 2vh;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+}
+#cardItem /*defining styles to the card item  */
+{
+    width:20%;  /* using css unit % it will give card width 20% of its parent div */
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    animation: exampleAnimation 1.5s ;  /*giving animation to card */
+}
+
+#placeDescription /*defining style to place description */
+{
+    text-align: justify;
+    margin: 5px 5px 0px 5px;
+    font-size: 14px;
+    color: gray;
+    font-family: Verdana;
+}
+#placeName /* defining styles to place name*/
+{
+    margin: 5px 5px 5px 5px;
+    font-family: Verdana;
+
+}
+#placeImg /* defining style to place img */
+{
+    width: 100%;
+    height: 50%;
+}
+
+@keyframes exampleAnimation {     /*defining animations */
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+@media screen and (max-width: 1150px) {     /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 12px;
+    }
+    #placeName
+    {
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width: 1030px) {    /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 10px;
+    }
+    #placeName
+    {
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 853px) {     /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 9px;
+    }
+    #placeName
+    {
+        font-size: 11px;
+    }
+    
+}
+@media screen and (max-width: 775px) {   /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 8px;
+    }
+    #placeName
+    {
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width: 700px) {    /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 7px;
+    }
+    #placeName
+    {
+        font-size: 9px;
+    }
+    
+}
+@media screen and (max-width: 615px) {   /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 6px;
+    }
+    #placeName
+    {
+        font-size: 8px;
+    }
+    
+}
+@media screen and (max-width: 530px) {    /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 5px;
+    }
+    #placeName
+    {
+        font-size: 7px;
+    }
+    
+}
+@media screen and (max-width: 460px) {    /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 4px;
+    }
+    #placeName
+    {
+        font-size: 6px;
+    }
+    
+}
+@media screen and (max-width: 380px) {    /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 3px;
+    }
+    #placeName
+    {
+        font-size: 5px;
+    }
+    
+}
+@media screen and (max-width: 290px) {   /* making responsive by decreasing fontsize of name and description on required width */
+    #placeDescription
+    {
+        font-size: 2px;
+    }
+    #placeName
+    {
+        font-size: 4px;
+    }
+    
+}
