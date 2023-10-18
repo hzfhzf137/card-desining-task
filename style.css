@@ -33,6 +33,7 @@ body , html /* using flexbox setting card surronded div to centered*/
     width:20%;  /* using css unit % it will give card width 20% of its parent div */
     border-radius: 5px;
     padding: 10px;
+    padding-bottom: 25px;
     background-color: white;
     animation: exampleAnimation 1.5s ;  /*giving animation to card */
 }
@@ -56,6 +57,19 @@ body , html /* using flexbox setting card surronded div to centered*/
     width: 100%;
     height: 50%;
 }
+#linkToWikipedia
+{
+    width: 40%;
+    height: 8%;
+    border: none;
+    background-color: rgba(66, 66, 228, 0.952);
+    color: white;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
 
 @keyframes exampleAnimation {     /*defining animations */
     0% { transform: scale(1); }
@@ -72,6 +86,11 @@ body , html /* using flexbox setting card surronded div to centered*/
     {
         font-size: 14px;
     }
+    #linkToWikipedia
+    {
+        font-size: 9px;
+    }
+
     
 }
 @media screen and (max-width: 1030px) {    /* making responsive by decreasing fontsize of name and description on required width */
@@ -82,6 +101,10 @@ body , html /* using flexbox setting card surronded div to centered*/
     #placeName
     {
         font-size: 12px;
+    }
+    #linkToWikipedia
+    {
+        font-size: 8px;
     }
     
 }
@@ -94,6 +117,10 @@ body , html /* using flexbox setting card surronded div to centered*/
     {
         font-size: 11px;
     }
+    #linkToWikipedia
+    {
+        font-size: 7px;
+    }
     
 }
 @media screen and (max-width: 775px) {   /* making responsive by decreasing fontsize of name and description on required width */
@@ -104,6 +131,10 @@ body , html /* using flexbox setting card surronded div to centered*/
     #placeName
     {
         font-size: 10px;
+    }
+    #linkToWikipedia
+    {
+        font-size: 6px;
     }
     
 }
@@ -116,6 +147,10 @@ body , html /* using flexbox setting card surronded div to centered*/
     {
         font-size: 9px;
     }
+    #linkToWikipedia
+    {
+        font-size: 5px;
+    }
     
 }
 @media screen and (max-width: 615px) {   /* making responsive by decreasing fontsize of name and description on required width */
@@ -126,6 +161,10 @@ body , html /* using flexbox setting card surronded div to centered*/
     #placeName
     {
         font-size: 8px;
+    }
+    #linkToWikipedia
+    {
+        font-size: 4px;
     }
     
 }
@@ -138,6 +177,10 @@ body , html /* using flexbox setting card surronded div to centered*/
     {
         font-size: 7px;
     }
+    #linkToWikipedia
+    {
+        font-size: 3px;
+    }
     
 }
 @media screen and (max-width: 460px) {    /* making responsive by decreasing fontsize of name and description on required width */
@@ -148,6 +191,10 @@ body , html /* using flexbox setting card surronded div to centered*/
     #placeName
     {
         font-size: 6px;
+    }
+    #linkToWikipedia
+    {
+        font-size: 2px;
     }
     
 }
